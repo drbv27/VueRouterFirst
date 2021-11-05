@@ -1,16 +1,15 @@
 <template>
-  <div class="about">
-    <Titulo texto="Mi titulo en acerca de" />
-    <h1>This is an about page</h1>
-  </div>
+  <Titulo texto="Ruta con parametro" />
+  <h2>Parametro: {{ $route.params.id }}</h2>
 </template>
+
 <script>
 import Titulo from "../components/Titulo.vue";
-
 export default {
-  name: "About",
   components: {
     Titulo,
   },
 };
 </script>
+
+<style></style>
