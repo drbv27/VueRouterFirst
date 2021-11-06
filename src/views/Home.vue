@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <Titulo texto="Mi titulo en el index" />
+    <Titulo texto="Pagina Principal" />
   </div>
 </template>
 

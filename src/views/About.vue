@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <Titulo texto="Mi titulo en acerca de" />
-    <h1>This is an about page</h1>
+    <Titulo texto="Acerca de: " />
+    <!-- <h1>This is an about page</h1> -->
   </div>
 </template>
 <script>
